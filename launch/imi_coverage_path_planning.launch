@@ -1,0 +1,8 @@
+<launch>
+  <node name="imi_coverage_path_planning" pkg="imi_nav_v2" type="imi_coverage_path_planning" output ="screen">
+    <rosparam file="$(find imi_nav_v2)/cfg/imi_coverage_path_planning.yaml" command="load" />
+　　　　<remap from="/cmd_vel_mux/input/teleop" to="navigation_velocity_smoother/raw_cmd_vel"/>
+  </node>
+<!--  <param name="use_sim_time" value="true" />-->
+</launch>
+

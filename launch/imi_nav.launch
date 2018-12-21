@@ -1,0 +1,8 @@
+<launch>
+  <node name="imi_nav_node_v2" pkg="imi_nav_v2" type="imi_nav_node_v2" output ="screen">
+    <rosparam file="$(find imi_nav_v2)/cfg/imi_nav.yaml" command="load" />
+　　　　<remap from="/cmd_vel_mux/input/teleop" to="navigation_velocity_smoother/raw_cmd_vel"/>
+  </node>
+<!--  <param name="use_sim_time" value="true" />-->
+</launch>
+

@@ -1,0 +1,15 @@
+map_path: "/home/exbot/.ros/map.pgm"
+min_cell_area: 10.0
+path_eps: 2.0
+grid_obstacle_offset: 0.2
+map_resolution: 0.1
+robot_radius: 0.178
+coverage_radius: 0.18
+use_dyn_goal_eps: true
+goal_eps: 0.35
+print_path: true
+navigate_path: false
+odom_frame: odom
+base_frame: base_link
+
+

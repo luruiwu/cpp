@@ -1,0 +1,16 @@
+odom_frame: odom
+base_frame: base_link
+front_gap: 20.0
+
+min_backGap: 0.2
+min_turnGap: 0.38
+max_randGap: 0.02
+
+min_turnAngle: 1.5708
+min_secondTurnAngle: 3.1416
+max_randAngle: 0.1745
+
+obstacle_gap: 0.2
+
+adjust_angle: 0.0
+
